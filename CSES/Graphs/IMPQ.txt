@@ -1,0 +1,20 @@
+# 2_CountingRooms
+# 7_Monsters - Multi source BFS
+# 10_HighScore
+# 11_FlightDiscount
+# 13_FlightRoutes
+# Difference between 6_RoundTrip and 14_RoundTrip
+# 17_GameRoutes - uses dp
+# 19_PlanetQueries1
+# 24_FlightRoutesCheck - counting strongly connected component using Kosaraju Algo
+# 26_CoinCollector - uses DP in Strongly connected component question using Kosaraju
+# 27_MailDelivery - Printing Euler Circuit in Undirected Graph
+# 28_DeBrujinSequence - Note how we reduce time complexity here
+# 29_TeleportersPath - Printing Euler Path in Directed Graph
+# 30_HamiltonianFlights - The Backtrack solution gives TLE on large inputs since it creates all possible permutations
+# 30_HamiltonianFlights - The DP solution is acceptable
+# 31_KnightsTour
+# 32_DownloadSpeed - Edmond Karp caannot handle if there is multiple edges between two same nodes from u -> v.
+# 32_DownloadSpeed - Dinic Algo can handle those edges and is better
+
+            
