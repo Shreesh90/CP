@@ -25,7 +25,7 @@ int main(){
     int b[4] = {4,3,2,1};
     int c[4] = {2,3,4,5};
 
-    int index = bs(c, 0, 3);
+    int index = bs(a, 0, 10);
     cout<<index;
 
 }

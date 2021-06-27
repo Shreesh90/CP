@@ -9,8 +9,7 @@
             "macFrameworkPath": [],
             "cStandard": "gnu17",
             "cppStandard": "gnu++17",
-            "intelliSenseMode": "${default}",
-            "compilerPath": "/usr/bin/clang++"
+            "intelliSenseMode": "macos-gcc-arm64"
         }
     ],
     "version": 4

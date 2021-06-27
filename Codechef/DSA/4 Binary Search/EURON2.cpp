@@ -6,7 +6,7 @@
 // The conquer part takes O(N)
 // Total log(N) division 
 // Overall algorithm takes O(N.logN)
-
+ 
 #include<bits/stdc++.h>
 using namespace std;
 int inv=0;
@@ -19,6 +19,7 @@ void merge(vector<int> &a, vector<int> &b, vector<int> &sorted){
             sorted.push_back(a[aptr++]);
         } else {
             inv += a.size() - aptr;
+            // inv++;
             sorted.push_back(b[bptr++]);
         }
     }
@@ -52,7 +53,7 @@ int main()
     int n; cin>>n;
     int a[n];
     for(int i=0;i<n;i++) cin>>a[i];
-    merge_sort(a, 1, n-1);
+    merge_sort(a, 0, n-1);
 
     for(int i=0;i<n;i++) cout<<a[i]<<" ";
     cout<<endl;

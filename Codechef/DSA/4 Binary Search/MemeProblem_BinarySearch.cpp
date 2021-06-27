@@ -20,8 +20,8 @@ int main()
             long double mid = (hi + lo)/2;
             long double num = (mid)*(x-mid);
 
-            long double delta1 = llabs(mid + (x-mid) - num);
-            long double delta2 = llabs(mid + (x-mid) - x);
+            long double delta1 = abs(mid + (x-mid) - num);
+            long double delta2 = abs(mid + (x-mid) - x);
 
             if(delta1 <= 1e-6 && delta2 < 1e-6){
                 cout<<"Y"<<" "<<mid <<" "<<x-mid<<endl;

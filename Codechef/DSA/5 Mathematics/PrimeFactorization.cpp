@@ -1,4 +1,4 @@
-#include<bits/stdc++.H>
+#include<bits/stdc++.h>
 using namespace std;
 
 const int N = 1e6 + 5;

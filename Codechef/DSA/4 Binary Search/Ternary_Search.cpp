@@ -1,4 +1,4 @@
-// Ternary Search
+r// Ternary Search
 // CODECHEF QUESTION
 // AMCS03
 
@@ -38,7 +38,7 @@ double search(double l, double r){
         } else {
             l = m1;
         }
-    }
+    }inl
     return f(l);
 
 }
