@@ -9,7 +9,7 @@ int bs(int a[], int lo, int hi){
     while(lo <= hi){
         int mid = lo + (hi-lo)/2;
 
-        if(mid == 0 || a[mid] > a[mid-1]){
+        if(mid == 0 || a[mid] > a[lo]){
             index=mid;
             lo = mid+1;
         }
@@ -21,11 +21,11 @@ int bs(int a[], int lo, int hi){
 }
 
 int main(){
-    int a[11] = {2,3,4,6,9,12,11,8,6,4,1};
+    int a[8] = {4,5,6,7,0,1,2,3};
     int b[4] = {4,3,2,1};
     int c[4] = {2,3,4,5};
 
-    int index = bs(a, 0, 10);
+    int index = bs(a, 0, 7);
     cout<<index;
 
 }
